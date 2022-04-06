@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+h2{
+    text-align:center;
+    margin-top: 5vh;
+    color: blue;
+}
+#name{
+    color: #000;
+}
+
+.main{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.star{
+    margin-left: 20px;
+}
+
+.main .star p{
+float: left;
+padding-right: 10px;
+}
+.checked {
+    color: orange;
+  }
+
+.content{
+    margin-top: 10px;
+
+}   
+.img{
+    margin-top: 10px;
+    width: 650px;
+    height: 487px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.ingredients h3{
+    margin-top: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+color: red;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  td,tr{
+      text-align: left  ;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #F0F4F8;
+  }
+
+  table, th, td {
+    border: 3px solid black;
+    border-radius: 10px;
+    border-color:#96D4D4 ;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.listed-doing{
+    margin-top: 10px;
+    padding-left: 20px;
+    border: 3px solid #96D4D4;
+    border-radius: 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #F0F4F8;
+    padding-bottom: 20px;
+}
+
+.listed-doing ol li{
+    margin-top: 5px;
+}
